@@ -1,0 +1,633 @@
+html{
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+  background: #18081F;
+}
+::-webkit-scrollbar-track {
+  background: #18081F;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.6);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9b0ed7;
+}
+body{
+  background: #18081F;
+  display: flex;
+  flex-direction: column;
+  width:auto;
+  box-sizing: border-box;
+  margin: 0%;
+}
+.header {
+  background: rgba(0, 0, 0, 0.6);
+  width: auto;
+  box-sizing: border-box;
+}
+.wrapper{
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  width: 1300px;
+  box-sizing: border-box;
+}
+.nombre {
+  font-family: 'HK Grotesk', sans-serif;
+  font-size: 30px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin: 40px 440px 40px 0px;
+  width: 210px;
+}
+
+.texto{
+  font-family: 'HK Grotesk';
+  font-size: 20px;
+  color: #ffffff;
+  margin: 30px 0px 30px 510px;
+  width: 100px;
+  text-align: center;
+}
+
+header nav a {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: normal;
+  padding: 10px 20px;
+  border-radius: 15px;
+  -o-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+header nav a:hover{
+  background: #9b0ed7;
+  
+}
+
+.piezas {
+  margin: 40px 70px 40px 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  box-sizing: border-box;
+}
+.container-0 {
+  margin-bottom: 20px;
+  max-width: 1300px;
+  max-height: 731px;
+}
+.img-sala{
+  box-shadow: inset 0px 0px 0px 10px rgba(0, 0, 0, 0.5);
+  background: url('../assets/images/sala.png') 50% / cover no-repeat;
+  width: 1300px;
+  height: 731px;
+}
+.container {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 1300px;
+  box-sizing: border-box;
+}
+.img-polea {
+  background: url('../assets/images/polea.png') 50% / cover no-repeat;
+  margin-right: 20px;
+  width: 530px;
+  height: 747px;
+}
+.img-game-boy {
+  background: url('../assets/images/game_boy.png') 50% / cover no-repeat;
+  width: 750px;
+  height: 747px;
+}
+.container-2 {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 1300px;
+  box-sizing: border-box;
+}
+.img-pozo {
+  background: url('../assets/images/pozo.png') 50% / cover no-repeat;
+  margin-right: 20px;
+  width: 640px;
+  height: 640px;
+}
+.img-calabaza {
+  background: url('../assets/images/calabaza.png') 50% / cover no-repeat;
+  width: 640px;
+  height: 640px;
+}
+.container-1 {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 1300px;
+  box-sizing: border-box;
+}
+.img-koopa-all-31 {
+  background: url('../assets/images/koopa_all_31.png') 50% / cover no-repeat;
+  margin-right: 20px;
+  width: 860px;
+  height: 454px;
+}
+.img-clone-ball {
+  background: url('../assets/images/clone_ball.png') 50% / cover no-repeat;
+  width: 420px;
+  height: 454px;
+}
+.container-3 {
+  display: flex;
+  flex-direction: row;
+  width: 1300px;
+  box-sizing: border-box;
+}
+.img-mg-rex {
+  background: url('../assets/images/mg_rex.png') 50% / cover no-repeat;
+  margin-right: 20px;
+  width: 640px;
+  height: 640px;
+}
+.img-mecha-g {
+  background: url('../assets/images/mecha_g.png') 50% / cover no-repeat;
+  width: 640px;
+  height: 640px;
+}
+.header-box {
+  background: rgba(0, 0, 0, 0.6);
+  width: 1440px;
+  height: 350px;
+}
+/*.foot {
+  background: rgba(0, 0, 0, 0.6);
+  width: auto;
+  box-sizing: border-box;
+  align-items: center;
+  height: auto;
+}
+.details{
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  width: 1300px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.summ {
+  background: #3d1d4a;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'HK Grotesk', sans-serif;
+  font-size: 30px;
+  list-style: none;
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 1300px;
+  border-radius: 15px;
+  -o-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  margin: 20px 0px 20px 0px;
+}
+.summ:hover{
+  background: #9b0ed7;
+  color:#000000
+}
+.CV{
+  height: 1000px;
+}*/
+[class^="img"]{
+  transition: 1s ease;
+  box-shadow: inset 0px 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+[class^="img"]:hover{
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: 1s ease;
+}
+.bar{
+  background: #231a269a; display: block;
+  height: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); transition: all 0.3s cubic-bezier (.25,.8,.25,1);
+}
+.bar span{
+  height: 20px;
+  float: left;
+  background: linear-gradient(135deg, rgb(235, 20, 255)0%, rgb(255, 24, 166)100%);
+}
+.maya {
+  width: 50%;
+  animation: maya 3s;
+}
+.zbrush{
+  width: 25%;
+  animation: zbrush 3s;
+}
+.blender{
+  width: 75%;
+  animation: blender 3s;
+}
+.painter{
+  width: 50%;
+  animation: painter 3s;
+}
+.unreal{
+  width: 50%;
+  animation: unreal 3s;
+}
+.ingles{
+  width: 75%;
+  animation: ingles 3s;
+}
+
+@keyframes maya{
+  0%{
+  width: 0%;
+  }
+  100%{
+  width: 50%;
+  }
+}
+@keyframes zbrush{
+  0%{
+  width: 0%;
+  }
+  100%{
+  width: 25%;
+  }
+}
+@keyframes blender{
+  0%{
+  width: 0%;
+  }
+  100%{
+  width: 75%;
+  }
+}
+@keyframes painter{
+  0%{
+  width: 0%;
+  }
+  100%{
+  width: 50%;
+  }
+}
+@keyframes unreal{
+  0%{
+  width: 0%;
+  }
+  100%{
+  width: 50%;
+  }
+}
+@keyframes ingles{
+  0%{
+  width: 0%;
+  }
+  100%{
+  width: 75%;
+  }
+}
+
+@media only screen  and (max-width: 1350px){
+
+  /*.summ{
+    width: 1000px;
+  }
+
+  .details{
+    width: 1000px;
+  }*/
+
+  .wrapper{
+    width: 1000px;
+  }
+
+  .nombre{
+    margin: 40px 290px 40px 0px;
+  }
+
+  .texto{
+    margin: 30px 0px 30px 360px;
+  }
+
+  [class^="container"]{
+    flex-direction: row;
+    width: fit-content;
+    margin-bottom: 0px;
+  }
+
+  [class^="img"]{
+    margin: 0px 0px 20px 0px;
+    width: 1000px;
+  }
+
+  .img-sala{
+    height: 500px;
+  }
+
+  .img-polea{
+    width: 380px;
+    height: 550px;
+    margin-right: 20px;
+  }
+
+  .img-game-boy{
+    width: 600px;
+    height: 550px;
+  }
+
+  .img-pozo{
+    width: 490px;
+    height: 490px;
+    margin-right: 20px;
+  }
+
+  .img-calabaza{
+    width: 490px;
+    height: 490px;
+  }
+
+  .img-koopa-all-31{
+    width: 660px;
+    height: 350px;
+    margin-right: 20px;
+  }
+
+  .img-clone-ball{
+    width: 320px;
+    height: 350px;
+  }
+
+  .img-mg-rex{
+    width: 490px;
+    height: 490px;
+    margin-right: 20px;
+  }
+
+  .img-mecha-g{
+    width: 490px;
+    height: 490px;
+    margin-bottom: 0px;
+  }
+
+  .containerCV{
+    flex-direction: row;
+    width: fit-content;
+    margin-bottom: 0px;
+  }
+
+  .C1{
+    width: 640px;
+    margin-right: 40px;
+  }
+
+  .C2{
+    width: 320px;
+  }
+}
+
+@media only screen  and (max-width: 1000px){
+
+  /*.summ{
+    width: 750px;
+    font-size: 24px;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .details{
+    width: 750px;
+  }*/
+
+  .wrapper{
+    width: 750px;
+  }
+
+  .nombre{
+    margin: 30px 185px 30px 0px;
+    font-size: 24px;
+  }
+
+  .texto{
+    margin: 20px 0px 20px 235px;
+    font-size: 16px;
+  }
+
+  [class^="container"]{
+    flex-direction: row;
+    width: fit-content;
+    margin-bottom: 0px;
+  }
+
+  [class^="img"]{
+    margin: 0px 0px 10px 0px;
+    width: 750px;
+  }
+
+  .img-sala{
+    height: 400px;
+  }
+
+  .img-polea{
+    width: 255px;
+    height: 445px;
+    margin-right: 10px;
+  }
+
+  .img-game-boy{
+    width: 485px;
+    height: 445px;
+  }
+
+  .img-pozo{
+    width: 370px;
+    height: 370px;
+    margin-right: 10px;
+  }
+
+  .img-calabaza{
+    width: 370px;
+    height: 370px;
+  }
+
+  .img-koopa-all-31{
+    width: 495px;
+    height: 275px;
+    margin-right: 10px;
+  }
+
+  .img-clone-ball{
+    width: 245px;
+    height: 275px;
+  }
+
+  .img-mg-rex{
+    width: 370px;
+    height: 370px;
+    margin-right: 10px;
+  }
+
+  .img-mecha-g{
+    width: 370px;
+    height: 370px;
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen  and (max-width: 750px){
+
+  /*.summ{
+    width: 500px;
+  }
+
+  .details{
+    width: 500px;
+  }*/
+
+  .wrapper{
+    width: 400px;
+  }
+
+  .nombre{
+    margin: 30px 60px 30px 0px;
+    font-size: 24px;
+  }
+
+  .texto{
+    margin: 20px 0px 20px 50px;
+    font-size: 16px;
+  }
+
+  header nav a {
+    padding: 10px 10px;
+  }
+
+  [class^="container"]{
+    flex-direction: row;
+    width: fit-content;
+    margin-bottom: 0px;
+  }
+
+  [class^="img"]{
+    box-shadow: inset 0px 0px 0px 5px rgba(0, 0, 0, 0.5);
+    margin: 0px 0px 10px 0px;
+    width: 400px;
+  }
+
+  .img-sala{
+    height: 275px;
+  }
+
+  .img-polea{
+    width: 140px;
+    height: 250px;
+    margin-right: 10px;
+  }
+
+  .img-game-boy{
+    width: 250px;
+    height: 250px;
+  }
+
+  .img-pozo{
+    width: 195px;
+    height: 195px;
+    margin-right: 10px;
+  }
+
+  .img-calabaza{
+    width: 195px;
+    height: 195px;
+  }
+
+  .img-koopa-all-31{
+    width: 270px;
+    height: 140px;
+    margin-right: 10px;
+  }
+
+  .img-clone-ball{
+    width: 120px;
+    height: 140px;
+  }
+
+  .img-mg-rex{
+    width: 195px;
+    height: 195px;
+    margin-right: 10px;
+  }
+
+  .img-mecha-g{
+    width: 195px;
+    height: 195px;
+    margin-bottom: 0px;
+  }
+
+  .containerCV{
+    flex-direction: column;
+    width: fit-content;
+    margin-bottom: 0px;
+  }
+
+  .C1{
+    width: 400px;
+    margin-right: 0px;
+  }
+
+  .C2{
+    width: 400px;
+  }
+
+  h1{
+    font-size: 24px;
+  }
+
+  p{
+    font-size: 16px;
+  }
+
+  .subt{
+    font-size: 20px;
+  }
+
+  .Carrera{
+    font-size: 16px;
+  }
+  .Uni{
+    font-size: 14px;
+  }
+  .Periodo{
+    font-size: 12px;
+  }
+  ul{
+    font-size: 12px;
+  }
+
+  .cell li{
+    font-size: 14px;
+  }
+  .cell-Comp li{
+    font-size: 14px;
+  }
+  .cell-Idiomas li{
+    font-size: 14px;
+  }
+  .bar{
+    height: 8px;
+  }
+  .subt2{
+    font-size: 20px;
+  }
+
+}

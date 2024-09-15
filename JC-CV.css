@@ -1,0 +1,440 @@
+html{
+    scroll-behavior: smooth;
+  }
+  ::-webkit-scrollbar{
+    background: #18081F;
+  }
+  ::-webkit-scrollbar-track {
+    background: #18081F;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.6);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #9b0ed7;
+  }
+  body{
+    background: #18081F;
+    /*background: linear-gradient(
+      to right,
+      #18081F 0px,
+      #18081F 980px,
+      #452753 980px,
+      #452753 1300px
+    );*/
+    display: flex;
+    flex-direction: column;
+    width:auto;
+    box-sizing: border-box;
+    margin: 0%;
+  }
+  .header {
+    background: rgba(0, 0, 0, 0.6);
+    width: auto;
+    box-sizing: border-box;
+  }
+  .wrapper{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+    box-sizing: border-box;
+  }
+  .nombre {
+    font-family: 'HK Grotesk', sans-serif;
+    font-size: 30px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 40px 440px 40px 0px;
+    width: 210px;
+  }
+  
+  .texto{
+    font-family: 'HK Grotesk';
+    font-size: 20px;
+    color: #ffffff;
+    margin: 30px 0px 30px 510px;
+    width: 100px;
+    text-align: center;
+  }
+  header nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: normal;
+    padding: 10px 20px;
+    border-radius: 15px;
+    -o-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+  }
+  header nav a:hover{
+    background: #9b0ed7;
+    
+  }
+  .piezasCV {
+    margin: 40px 70px 40px 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    box-sizing: border-box;
+  }
+  .header-box {
+    background: rgba(0, 0, 0, 0.6);
+    width: 1440px;
+    height: 350px;
+  }
+  .containerCV {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+    box-sizing: border-box;
+  }
+  .C1{
+    margin-right: 40px;
+    width: 840px;
+  }
+  h1{
+    margin: 0px 0px 0px 0px;
+    font-family: 'HK Grotesk', sans-serif;
+    font-size: 30px;
+    line-height: 20px;
+    color: #ff8af7;
+  }
+  .C2{
+    width: 420px;
+  }
+  p{
+    color: #ffffff;
+    font-family: 'Muli', sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    text-align: justify;
+    margin: 20px 0px 40px 0px;
+  }
+  .subt{
+    font-size: 24px;
+    font-weight: 500;
+  }
+  ol{
+    margin: 15px 0px 40px 0px;
+    padding-left: 20px;
+    list-style: none;
+    font-family: 'Muli', sans-serif;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 18px;
+  }
+  ol a{
+    outline: none;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  ol a:hover{
+    color:#ff8af7;
+    text-decoration: underline;
+  }
+  .Carrera{
+    font-weight: 400;
+  }
+  .Uni{
+    font-weight: 300;
+    font-size: 16px;
+  }
+  .Periodo{
+    font-weight: 200;
+    font-size: 14px;
+    padding-top: 5px;
+    color: #faaaf5;
+  }
+  ul{
+    margin: 5px 0px 0px 0px;
+    padding-left: 20px;
+    list-style: square;
+    font-family: 'Muli', sans-serif;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 14px;
+  }
+  .subt2{
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 5px;
+    color: #ffc2fb;
+  }
+  .contact{
+    font-weight: 300;
+    font-size: 16px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+  i{
+    padding-right: 15px;
+  }
+  .cell{
+    background: #9b0ed7;
+    border-radius: 15px;
+    height: 100px;
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+  }
+  .cell2{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    box-sizing: border-box;
+    padding: 0px 20px 0px 20px;
+    width: 100%;
+  }
+  .cell-Comp{
+    background: #9b0ed7;
+    border-radius: 15px;
+    height: 250px;
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+  }
+  .cell-Comp li{
+    margin-bottom: 5px;
+  }
+  .cell-Idiomas{
+    background: #9b0ed7;
+    border-radius: 15px;
+    height: 100px;
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+  }
+  .cell-Idiomas li{
+    margin-bottom: 5px;
+  }
+  .bar{
+    background: #231a269a; display: block;
+    height: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); transition: all 0.3s cubic-bezier (.25,.8,.25,1);
+  }
+  .bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgb(235, 20, 255)0%, rgb(255, 24, 166)100%);
+  }
+  .maya {
+    width: 50%;
+    animation: maya 3s;
+  }
+  .zbrush{
+    width: 25%;
+    animation: zbrush 3s;
+  }
+  .blender{
+    width: 75%;
+    animation: blender 3s;
+  }
+  .painter{
+    width: 50%;
+    animation: painter 3s;
+  }
+  .unreal{
+    width: 50%;
+    animation: unreal 3s;
+  }
+  .ingles{
+    width: 75%;
+    animation: ingles 3s;
+  }
+
+  @keyframes maya{
+    0%{
+    width: 0%;
+    }
+    100%{
+    width: 50%;
+    }
+  }
+  @keyframes zbrush{
+    0%{
+    width: 0%;
+    }
+    100%{
+    width: 25%;
+    }
+  }
+  @keyframes blender{
+    0%{
+    width: 0%;
+    }
+    100%{
+    width: 75%;
+    }
+  }
+  @keyframes painter{
+    0%{
+    width: 0%;
+    }
+    100%{
+    width: 50%;
+    }
+  }
+  @keyframes unreal{
+    0%{
+    width: 0%;
+    }
+    100%{
+    width: 50%;
+    }
+  }
+  @keyframes ingles{
+    0%{
+    width: 0%;
+    }
+    100%{
+    width: 75%;
+    }
+  }
+
+  @media only screen  and (max-width: 1350px){
+
+    .wrapper{
+      width: 1000px;
+    }
+  
+    .nombre{
+      margin: 40px 290px 40px 0px;
+    }
+  
+    .texto{
+      margin: 30px 0px 30px 360px;
+    }
+
+    .containerCV{
+      flex-direction: row;
+      width: fit-content;
+      margin-bottom: 0px;
+    }
+
+    .C1{
+      width: 640px;
+      margin-right: 40px;
+    }
+  
+    .C2{
+      width: 320px;
+    }
+  
+  }
+  
+  @media only screen  and (max-width: 1000px){
+    .wrapper{
+      width: 750px;
+    }
+  
+    .nombre{
+      margin: 30px 185px 30px 0px;
+      font-size: 24px;
+    }
+  
+    .texto{
+      margin: 20px 0px 20px 235px;
+      font-size: 16px;
+    }
+
+    .containerCV{
+      flex-direction: row;
+      width: fit-content;
+      margin-bottom: 0px;
+    }
+
+    .C1{
+      width: 410px;
+      margin-right: 20px;
+    }
+  
+    .C2{
+      width: 320px;
+    }
+  
+  }
+  
+  @media only screen  and (max-width: 750px){
+    .wrapper{
+      width: 400px;
+    }
+  
+    .nombre{
+      margin: 30px 60px 30px 0px;
+      font-size: 24px;
+    }
+  
+    .texto{
+      margin: 20px 0px 20px 50px;
+      font-size: 16px;
+    }
+  
+    header nav a {
+      padding: 10px 10px;
+    }
+
+    .containerCV{
+      flex-direction: column;
+      width: fit-content;
+      margin-bottom: 0px;
+    }
+
+    .C1{
+      width: 400px;
+      margin-right: 0px;
+    }
+  
+    .C2{
+      width: 400px;
+    }
+
+    h1{
+      font-size: 24px;
+    }
+
+    p{
+      font-size: 16px;
+    }
+
+    .subt{
+      font-size: 20px;
+    }
+
+    .Carrera{
+      font-size: 16px;
+    }
+    .Uni{
+      font-size: 14px;
+    }
+    .Periodo{
+      font-size: 12px;
+    }
+    ul{
+      font-size: 12px;
+    }
+
+    .cell li{
+      font-size: 14px;
+    }
+    .cell-Comp li{
+      font-size: 14px;
+    }
+    .cell-Idiomas li{
+      font-size: 14px;
+    }
+    .bar{
+      height: 8px;
+    }
+    .subt2{
+      font-size: 20px;
+    }
+  
+  }
