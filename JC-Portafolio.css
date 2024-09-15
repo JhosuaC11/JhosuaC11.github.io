@@ -380,20 +380,6 @@ header nav a:hover{
     margin-bottom: 0px;
   }
 
-  .containerCV{
-    flex-direction: row;
-    width: fit-content;
-    margin-bottom: 0px;
-  }
-
-  .C1{
-    width: 640px;
-    margin-right: 40px;
-  }
-
-  .C2{
-    width: 320px;
-  }
 }
 
 @media only screen  and (max-width: 1000px){
@@ -574,60 +560,87 @@ header nav a:hover{
     margin-bottom: 0px;
   }
 
-  .containerCV{
-    flex-direction: column;
+}
+
+@media only screen  and (max-width: 500px){
+
+  .wrapper{
+    width: 320px;
+  }
+
+  .nombre{
+    margin: 30px 0px 30px 0px;
+    font-size: 20px;
+  }
+
+  .texto{
+    margin: 20px 0px 20px 0px;
+    font-size: 12px;
+  }
+
+  header nav a {
+    padding: 10px 10px;
+  }
+
+  [class^="container"]{
+    flex-direction: row;
     width: fit-content;
     margin-bottom: 0px;
   }
 
-  .C1{
-    width: 400px;
-    margin-right: 0px;
+  [class^="img"]{
+    box-shadow: inset 0px 0px 0px 5px rgba(0, 0, 0, 0.5);
+    margin: 0px 0px 10px 0px;
+    width: 320px;
   }
 
-  .C2{
-    width: 400px;
+  .img-sala{
+    height: 175px;
   }
 
-  h1{
-    font-size: 24px;
+  .img-polea{
+    width: 120px;
+    height: 190px;
+    margin-right: 10px;
   }
 
-  p{
-    font-size: 16px;
+  .img-game-boy{
+    width: 190px;
+    height: 190px;
   }
 
-  .subt{
-    font-size: 20px;
+  .img-pozo{
+    width: 155px;
+    height: 155px;
+    margin-right: 10px;
   }
 
-  .Carrera{
-    font-size: 16px;
-  }
-  .Uni{
-    font-size: 14px;
-  }
-  .Periodo{
-    font-size: 12px;
-  }
-  ul{
-    font-size: 12px;
+  .img-calabaza{
+    width: 155px;
+    height: 155px;
   }
 
-  .cell li{
-    font-size: 14px;
+  .img-koopa-all-31{
+    width: 220px;
+    height: 120px;
+    margin-right: 10px;
   }
-  .cell-Comp li{
-    font-size: 14px;
+
+  .img-clone-ball{
+    width: 100px;
+    height: 120px;
   }
-  .cell-Idiomas li{
-    font-size: 14px;
+
+  .img-mg-rex{
+    width: 155px;
+    height: 155px;
+    margin-right: 10px;
   }
-  .bar{
-    height: 8px;
-  }
-  .subt2{
-    font-size: 20px;
+
+  .img-mecha-g{
+    width: 155px;
+    height: 155px;
+    margin-bottom: 0px;
   }
 
 }
